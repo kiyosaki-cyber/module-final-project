@@ -1,0 +1,46 @@
+/* reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* variables */
+:root{
+    /* color */
+--BGCOLOR:white;
+--FONTCOLOR:black;
+--BORDER-COLOR: black;
+
+/* font */
+--FF:'Times New Roman', Times, serif;
+--FS:1.5rem;
+
+    /* header */
+--HEADER-BGCOLOR:black;
+--HEADER-COLOR:white;
+
+}
+.header{
+    background-color: var(--HEADER-BGCOLOR);
+    color: var(--HEADER-COLOR);
+}
+.header__h1{
+    color: var(--HEADER-COLOR);
+}
+.header__nav{
+    display: flex;
+    flex-direction: column nowrap;
+    justify-content: space-evenly;
+    gap: 1rem;
+
+}
+
+
+
+
+
+
+
+
+
+
