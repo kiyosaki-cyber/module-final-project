@@ -1,53 +1,64 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>contacts</title>
-    <link rel="stylesheet" href="tss/style.css">
-</head>
-<body>
-    <header class="header">
-        <h1 class="header__h1">contacts</h1>
-        <nav class="header__nav">
-            <h2><a href="contact.html">contacts</a></h2>
-            <h2><a href="miniprojects.html">module miniprojects</a></h2>
-            <h2><a href="about.html">about me</a></h2>
-            <h2><a href="index.html">home</a></h2>
-        </nav>
+ <!DOCTYPE html >
+ <html lang="en" class="html">
+ <head> 
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>contacts</title>
+     <link rel="stylesheet" href="tss/style.css">
+     <link rel="stylesheet" href="css/style.css">
+ </head>
+ <body class="border">
+     <header class="header">
+         <h1 class="header__h1">contacts</h1>
+         <nav class="header__nav">
+             <h2><a href="contact.html">contacts</a></h2>
+             <h2><a href="miniprojects.html">module miniprojects</a></h2>
+             <h2><a href="about.html">about me</a></h2>
+             <h2><a href="index.html">home</a></h2>
+             <p>&#9776;</p>
+         </nav>
         
 
-    </header>
+     </header>
     <main>
         <article>
             <form action="https://first.webpage.random">
-                <p>
+                <p class="border">
                     <label for="name">name</label>
                     <input type="text" id="name" placeholder="esther natalia" required >
                 </p>
-                <p>
+                <br>
+                <p class="border">
 
                     <label for="Email">Email address</label>
                     <input type="email" name="Email" id="Email" placeholder="random%guy@gmail.com" required>
                 </p>
-                <p>
+                <br>
+                <p class="border">
                     <label for="phone">phone number</label>
                     <input type="text" id="phone" placeholder="+254-*********" pattern="+254-*********" required>
                 </p>
+                <br>
                 
-            
-                    <label for="contact-me">please send me feedback here</label>
-                    <textarea name="contact-me" id="contact-me" cols="30" rows="10">
+                    <h3>please send me your feedback here</h3>
+                    <p class="border">
+                    <label for="contact-me"></label>
+                    <p class="border">
+                    <textarea name="contact-me" id="contact-me" cols="30" rows="10" placeholder="the feedback">
                        
                     </textarea>
-                
-                <p>
+                </p>
+                </p>
+                <p class="button">
                     <button type="submit">submit</button>
+                </p>
+             <br>
+                <p class="button">
                     <button type="reset">reset</button>
                 </p>
-                
-            
+                <p >
+               
 
 
             </form>
